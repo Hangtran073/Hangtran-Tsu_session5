@@ -1,0 +1,22 @@
+button{
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: rgba(134, 129, 129,0.2);
+    transform: scale(2,2);
+    border-top: 2px solid hsl(0, 100%, 50%);
+    border-right: 3.5px dotted rgb(198, 23, 198);
+    border-bottom: 5px double rgb(43, 223, 43);
+    border-left: 6px groove purple;
+
+   
+
+    
+    
+   
+  
+
+
+    
+
+    
+}
