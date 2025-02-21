@@ -1,0 +1,32 @@
+
+.parent{
+   
+    
+    margin-top: 10px;
+
+    line-height: 40px;
+    padding-left: 10px;
+    color: aliceblue}
+
+.box{
+    height: 40px;
+    background-color: rgb(216, 214, 212);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+
+
+}
+.transition{
+    background-color:  rgb(216, 214, 212);
+    transition: background-color 0.5s ease;
+    line-height: 50px;
+    padding-left: 10px;
+    color: aliceblue}
+
+
+  
+.transition:hover{
+    background-color: rgb(12, 12, 12)}
