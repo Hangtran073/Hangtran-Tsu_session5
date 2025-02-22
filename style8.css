@@ -1,0 +1,113 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: bisque;
+
+}
+
+
+
+.clock{
+    width:200px;
+    height:200px;
+    background-color: rgb(235, 231, 226);
+    border: 10px solid rgb(151, 67, 67);
+    border-radius: 50%;
+    position:relative;
+    box-shadow: 0px 0px 10px rgb(201, 123, 123);
+}
+
+.hand{
+    position:absolute;
+    background-color:black;
+    transition: transform 0.5s ease-in-out;
+    left: 50%;
+    bottom: 50%;
+    transform-origin: 50% 100%;
+    transform: rotate(0deg);
+   
+
+
+}
+
+.hour{
+    width:6px;
+    height:50px;
+    background-color:black;
+    position:absolute;
+    top:50px;
+    left:97px;
+    animation: rotateHour 43200s linear infinite;
+}
+
+   
+
+    
+  
+    
+
+
+.minute{
+    width:4px;
+    height:70px;
+    background-color:gray;
+    position:absolute;
+    top:30px;
+    left:98px;
+    animation: rotateMinute 3600s linear infinite;
+}
+
+
+    
+    
+   
+
+
+
+
+.second{
+    width:2px;
+    height:80px;
+    background-color:red;
+    position:absolute;
+    top:20px;
+    left:98px;
+    animation: rotateSecond 60s linear infinite;
+    
+
+    
+   
+}
+.center-circle{
+    width:10px;
+    height:10px;
+    background-color:black;
+    border-radius: 50%;
+    position:absolute;
+    top:95px;
+    left:95px
+}
+
+
+@keyframes rotateHour{
+    from{ transform: rotate(0deg);}
+    to{ transform: rotate(360deg);}
+}
+
+@keyframes rotateMinute{
+    from{ transform: rotate(0deg);}
+    to{ transform: rotate(360deg);}
+}
+
+@keyframes rotateSecond{
+    from{ transform: rotate(0deg);}
+    to{ transform: rotate(360deg);}
+}
